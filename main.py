@@ -5,7 +5,7 @@ import requests
 import time
 
 neh = input("Webhook url for posting pfps : ")
-hook = Webhook(NORMALIZE_WHITESPACE)
+hook = Webhook(neh)
 
 def send_nsfw():
     while True:
